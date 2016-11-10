@@ -7,5 +7,9 @@ $(document).ready(function(){
    //$(this).backgroundcolor()
   });
 
+  $('.list').click(function() {
+  	$(this).css("background-color", "black");
+    });
+
 
 });
